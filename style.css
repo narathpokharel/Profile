@@ -1,0 +1,177 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family:sans-serif;
+    background-color:white;
+}
+
+.top {
+    background-color:blue;
+}
+
+.nav {
+    margin: 0 auto;
+    width: 1200px;
+    color:whitesmoke;
+    justify-content: space-between;
+    display: flex;
+    height: 100px;
+    align-items: center;
+}
+
+.nav-links {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+    align-items: center;
+    width: 40%;
+    margin-right: 30%;
+}
+
+.nav a {
+    color:white;
+    text-decoration: none;
+}
+
+.nav-title {
+    margin-left: 15px;
+}
+
+.btn {
+    width: 95px;
+    height: 28px;
+    background-color:cyan;
+    font-size: 14px;
+    box-shadow: 4px 4px; color:lightslategray;
+    color:whitesmoke;
+    border: none;
+    margin-left: 335%;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.row {
+    display: flex;
+}
+
+.col, .col-2 {
+    padding: 8px;
+    margin: 8px;
+    flex: 1;
+}
+
+.col-2 {
+    flex: 2;
+}
+
+.flex-container {
+    width: 1200px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.user-card, .card {
+    width: 90%;
+    margin-bottom: 15px;
+    font-size: 1.5rem;
+    overflow: hidden;
+    background-color:linen;
+    border-radius: 5px;
+    border: 2px; color: darkgoldenrod;
+}
+
+.card-header {
+    margin-bottom: 80px;
+    height: 120px;
+    background-color: grey;
+    
+}
+
+.card-body {
+    padding: 22px;
+}
+
+.card-body h1, 
+.card-body h2,
+.card-body h3,
+.card-body p {
+    margin: 20px 20px 20px 20px 0px;
+}
+
+.avatar-m {
+    
+    margin-left: 15px;
+    background-color:honeydew;
+    height: 185px;
+    margin-top: 15px;
+    padding: 5px;
+    border-radius: 60%;
+    
+    
+    
+}
+
+.icon-s {
+    height: 15px;
+}
+
+a {
+    color:skyblue;
+}
+
+.header {
+    padding: 15px;
+    font-size: 20px;
+    color: white;
+    align-items: center;
+    display: flex;
+    background-color: #333333;
+}
+
+.avatar-s {
+    margin-right: 10px;
+    height: 42px;
+    border-radius: 50%;
+    
+}
+
+.user-line {
+    margin: 20px;
+    justify-content: space-between;
+    display: flex;
+}
+
+.start, .end {
+    font-size: 20px;
+    align-items: center;
+    display: flex;
+    
+}
+
+.dates {
+    color:grey;
+    font-size: 15px;
+}
+
+.footer {
+    border-top: 2px; color: indigo;
+    padding: 15px 15px 15px 15px;
+}
+
+.connections {
+    margin-right: 10px;
+    height: 24px;
+    color:lightgreen;
+    border-radius: 12px;
+    font-size: 15px;
+    background-color:khaki;
+    padding: 0 10px;  
+}
